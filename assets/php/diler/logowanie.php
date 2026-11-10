@@ -31,7 +31,7 @@ if (isset($_SESSION['zalogowano'])) {
     <!--Formularz, nie ruszaj bo dziala-->
     <form action="../serwer/logowanie-serwer.php" method="post">
         <p>Nazwa użytkownika:</p>
-        <input type="text" name="login">
+        <input type="text" name="login" value="<?php echo htmlspecialchars($_SESSION['login'] ?? ''); ?>">
         <p>Hasło:</p>
         <input type="password" name="haslo">
         <button type="submit">Wyślij</button>

@@ -31,6 +31,7 @@ if ($user) {
 // Jeśli ich nie ma
 else {
     $_SESSION['zalogowano'] = false;
+    $_SESSION['login'] = $login;    
 }
 
 // Powrót do strony logowania.

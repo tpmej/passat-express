@@ -6,6 +6,6 @@
     <title>Strona Główna - PassatExpress</title>
 </head>
 <body>
-    
+    <h1>strona-glowna.php</h1>
 </body>
 </html>

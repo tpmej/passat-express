@@ -1,4 +1,4 @@
 <?php
 // Redirect to the main page
-header('Location: ./assets/php/diler/logowanie.php', true, 302);
-exit;
+header("Location: http://localhost:8000/assets/php/diler/logowanie.php");
+exit();
