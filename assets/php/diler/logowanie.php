@@ -28,12 +28,6 @@ if (isset($_SESSION['zalogowano'])) {
     <title>PassatExpress - Logowanie</title>
 </head>
 <body>
-    <?php
-    if ($blad === true) {
-        echo '<p>Zły login lub hasło</p>';
-    }
-    ?>
-
     <!--Formularz-->
     <form action="../serwer/logowanie-serwer.php" method="post">
         <p>Nazwa użytkownika:</p>
@@ -42,5 +36,11 @@ if (isset($_SESSION['zalogowano'])) {
         <input type="password" name="haslo">
         <button type="submit">Wyślij</button>
     </form>
+
+        <?php
+    if ($blad === true) {
+        echo '<p>Zły login lub hasło</p>';
+    }
+    ?>
 </body>
 </html>
