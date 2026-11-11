@@ -23,6 +23,6 @@ session_start();
         echo '<button onclick="location.href=\'./admin-panel.php\'">admin-panel.php</button>';
     }
     ?>
-    test test kolejny test test
+    test test kolejny test test test
 </body>
 </html>
