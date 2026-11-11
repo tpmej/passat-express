@@ -1,16 +1,39 @@
 # PassatExpress
-Strona internetowa sklepu z passatami, oraz dashboard dla dilerów samochodowych wraz z logowaniem i admin panelem.
+Projekt na zaliczenie praktyk w ZSET w Lesznie. Strona internetowa sklepu z passatami, oraz dashboard dla dilerów samochodowych wraz z logowaniem i admin panelem.
 
 # Jak odpalić?
-## Linux
-```bash
+## Pobieranie
+We wybranym folderze należy uruchomić poniższą komendę. 
+```markdown
 git clone https://github.com/tpmej/passat-express
+```
+## Uruchamianie
+W katalogu do którego wcześniej pobraliśmy repozytorium, zależnie od systemu operacyjnego należy uruchomić następujące komendy.
+### Linux
+```bash
 cd passat-express
 bash localhost.bash
 ```
-## Windows
+### Windows
 ```cmd
-git clone https://github.com/tpmej/passat-express
 cd passat-express
 localhost.bat
 ```
+Po wykonaniu tych kroków. Pod adresem [http://localhost:8000](http://localhost:8000) w przeglądarce jest dostępna strona główna, a pod adresem [http://localhost:8001](http://localhost:8001) strona logowania do dashboardu dilera, oraz jeżeli użytkownik ma uprawnienia administratora, to także admin panel. Nie należy zamykać okna konsoli ze skryptem localhost.bash / .bat, ponieważ serwer php przestanie działać.
+
+# Użytkowanie
+## Strona internetowa
+W wybranej przeglądarce należy wpisać adres [http://localhost:8000](http://localhost:8000), lub kliknąć w ten link.
+## Dashboard
+W wybranej przeglądarce należy wpisać adres [http://localhost:8001](http://localhost:8001), lub kliknąć w ten link.  
+Login: admin  
+Hasło: passat
+
+# Autorzy
+-[Tomasz Całujek](https://github.com/tpmej)  
+-[Mikołaj Klefas](https://github.com/mk5137)
+
+# Licencja
+
+Ten projekt jest objęty licencją **GNU General Public License v3.0** (GPLv3).  
+Pełną treść licencji znajdziesz w pliku [LICENSE](LICENSE).
