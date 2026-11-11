@@ -7,7 +7,7 @@ $login = $_POST['login'] ?? ''; // Odbieranie loginu.
 $haslo = $_POST['haslo'] ?? ''; // Odbieranie hasła.
 
 // Połączenie z bazą danych.
-$dir = __DIR__ . '/../../sql/baza.db'; // Ścieżka bazy danych od korzenia serwera.
+$dir = __DIR__ . '/../../sql/baza.db'; // Ścieżka bazy danych.
 $db = "sqlite:$dir"; // Obiekt bazy danych (sqlite).
 $pdo = new PDO($db); // PHP Data Objects bazy danych.
 // Ustawienia od wyświetlania blędów i czytelności tabel.
