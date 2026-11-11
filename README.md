@@ -15,7 +15,7 @@ cd passat-express
 bash localhost.bash
 ```
 ### Windows
-```cmd
+```bat
 cd passat-express
 localhost.bat
 ```
