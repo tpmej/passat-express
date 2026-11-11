@@ -34,10 +34,11 @@ Login: user
 Hasło: volks
 
 # Autorzy
-[Tomasz Całujek](https://github.com/tpmej)  
-[Mikołaj Klefas](https://github.com/mk5137)
+| Autor | Rola w projekcie | GitHub |
+| :--- | :--- | :--- |
+| **Tomasz Całujek** | Backend (PHP, SQLite) | [tpmej](https://github.com/tpmej) |
+| **Mikołaj Klefas** | Frontend (HTML, CSS, JS) | [mk5137](https://github.com/mk5137) |
 
 # Licencja
-
 Ten projekt jest objęty licencją **GNU General Public License v3.0** (GPLv3).  
 Pełną treść licencji znajdziesz w pliku [LICENSE](LICENSE).
