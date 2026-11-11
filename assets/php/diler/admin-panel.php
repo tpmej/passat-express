@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>admin-panel.php</h1>
+    <button onclick="location.href='./dashboard.php'">dashboard.php</button>
 </body>
 </html>
