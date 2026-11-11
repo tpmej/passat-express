@@ -28,7 +28,7 @@ if (isset($_SESSION['zalogowano'])) {
     <title>PassatExpress - Logowanie</title>
 </head>
 <body>
-    <!--Formularz, nie ruszaj bo dziala-->
+    <!--Formularz-->
     <form action="../serwer/logowanie-serwer.php" method="post">
         <p>Nazwa użytkownika:</p>
         <input type="text" name="login" value="<?php echo htmlspecialchars($_SESSION['login'] ?? ''); ?>">
@@ -37,7 +37,7 @@ if (isset($_SESSION['zalogowano'])) {
         <button type="submit">Wyślij</button>
     </form>
 
-    <!-- Nie ruszaj tego tutaj tez -->
+    <!--Wypisywanie błędu-->
         <?php
     if ($blad === true) {
         echo '<p>Zły login lub hasło</p>';

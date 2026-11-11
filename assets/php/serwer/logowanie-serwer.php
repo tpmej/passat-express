@@ -15,7 +15,7 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // Obsługa błę
 $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC); // Czytelność tabel.
 
 // Sprawdzenie danych logowania.
-// Zapytanie do tabeli    
+// Zapytanie do tabeli.    
 $stmt = $pdo->prepare("SELECT * FROM uzytkownicy WHERE login = ? AND haslo = ?"); // Przygotowanie zapytania z 2 miejscami do podstawienia.
 $stmt->execute([$login, $haslo]); // Wykonanie zapytania z podstawieniem $login oraz $haslo.
 $user = $stmt->fetch(); // Pobranie wyniku zapytania, lub false.
@@ -28,7 +28,7 @@ if ($user) {
     $_SESSION['login'] = $user['login'];
     $_SESSION['super'] = $user['super'];
 } 
-// Jeśli ich nie ma
+// Jeśli ich nie ma.
 else {
     $_SESSION['zalogowano'] = false;
     $_SESSION['login'] = $login;    

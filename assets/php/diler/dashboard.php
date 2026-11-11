@@ -16,13 +16,11 @@ session_start();
     echo "ID:    " . $_SESSION['id'] . "<br>";
     echo "login: " . $_SESSION['login'] . "<br>";
     echo "super: " . $_SESSION['super'] . "<br>";
-    ?>
-    magiczny przycisk:
-    <?php
+
     if ($_SESSION['super']==1) {
+        echo 'magiczny przycisk:';
         echo '<button onclick="location.href=\'./admin-panel.php\'">admin-panel.php</button>';
     }
     ?>
-    test test kolejny test test test
 </body>
 </html>
