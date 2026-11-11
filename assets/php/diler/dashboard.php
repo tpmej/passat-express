@@ -10,6 +10,7 @@ session_start();
     <title>Dashboard - PassatExpress</title>
 </head>
 <body>
+    <button onclick="location.href='./logowanie.php'">logowanie.php</button>
     <h1>dashboard.php</h1>
     <?php
     echo "ID:    " . $_SESSION['id'] . "<br>";
