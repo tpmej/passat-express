@@ -26,12 +26,16 @@ Po wykonaniu tych kroków. Pod adresem [http://localhost:8000](http://localhost:
 W wybranej przeglądarce należy wpisać adres [http://localhost:8000](http://localhost:8000), lub kliknąć w ten link.
 ## Dashboard
 W wybranej przeglądarce należy wpisać adres [http://localhost:8001](http://localhost:8001), lub kliknąć w ten link.  
+### Administrator
 Login: admin  
 Hasło: passat
+### Użytkownik
+Login: user  
+Hasło: volks
 
 # Autorzy
--[Tomasz Całujek](https://github.com/tpmej)  
--[Mikołaj Klefas](https://github.com/mk5137)
+[Tomasz Całujek](https://github.com/tpmej)  
+[Mikołaj Klefas](https://github.com/mk5137)
 
 # Licencja
 

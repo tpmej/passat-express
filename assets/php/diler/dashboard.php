@@ -16,6 +16,11 @@ session_start();
     echo "login: " . $_SESSION['login'] . "<br>";
     echo "super: " . $_SESSION['super'] . "<br>";
     ?>
-    tak to ta cala rozbudowa
+    magiczny przycisk:
+    <?php
+    if ($_SESSION['super']==1) {
+        echo '<button onclick="location.href=\'./admin-panel.php\'">admin-panel.php</button>';
+    }
+    ?>
 </body>
 </html>
