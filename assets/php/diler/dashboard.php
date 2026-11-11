@@ -16,5 +16,6 @@ session_start();
     echo "login: " . $_SESSION['login'] . "<br>";
     echo "super: " . $_SESSION['super'] . "<br>";
     ?>
+    tak to ta cala rozbudowa
 </body>
 </html>
